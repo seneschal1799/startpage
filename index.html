@@ -7,7 +7,7 @@
 <style>
 body {
     margin: 0;
-    padding: 12px;
+    padding: 120px 12px 12px 12px;
     font-family: sans-serif;
     background: #111;
     display: grid;
@@ -17,15 +17,24 @@ body {
 
 .tile {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 80px;
+    min-height: 110px;
     border-radius: 12px;
     background: #222;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    gap: 8px;
+    text-align: center;
 }
+
+.tile img {
+    width: 32px;
+    height: 32px;
+}
+    
 </style>
 </head>
 <body>
@@ -35,16 +44,24 @@ body {
     <a class="tile" href="https://ozon.ru" target="_blank">
     <img src="https://www.google.com/s2/favicons?domain=ozon.ru&sz=64">
     <span>Озон</span></a>
-    <a class="tile" href="https://pogoda.yandex.ru">Погода</a>
-    <a class="tile" href="https://yandex.ru/maps">Карты</a>
-    <a class="tile" href="https://market.yandex.ru">Маркет</a>
-    <a class="tile" href="https://music.yandex.ru">Музыка</a>
-    <a class="tile" href="https://web.kuper.ru">Купер</a>
-    <a class="tile" href="https://parking.mos.ru">Парковки</a>
-    <a class="tile" href="https://gosuslugi.ru">Госуслуги</a>
-    <a class="tile" href="https://mos.ru">Мос.ру</a>
-    <a class="tile" href="https://5ka.ru">5ка</a>
-    <a class="tile" href="https://mos.ru">Мос.ру</a>
+    <a class="tile" href="https://pogoda.yandex.ru"><img src="https://www.google.com/s2/favicons?domain=pogoda.yandex.ru&sz=64">
+    <span>Погода</span></a>
+    <a class="tile" href="https://yandex.ru/maps"><img src="https://www.google.com/s2/favicons?domain=maps.yandex.ru&sz=64">
+    <span>Карты</span></a>
+    <a class="tile" href="https://market.yandex.ru"><img src="https://www.google.com/s2/favicons?domain=market.yandex.ru&sz=64">
+    <span>Маркет</span></a>
+    <a class="tile" href="https://music.yandex.ru"><img src="https://www.google.com/s2/favicons?domain=music.yandex.ru&sz=64">
+    <span>Музыка</span></a>
+    <a class="tile" href="https://web.kuper.ru"><img src="https://www.google.com/s2/favicons?domain=kuper.ru&sz=64">
+    <span>Купер</span></a>
+    <a class="tile" href="https://parking.mos.ru"><img src="https://www.google.com/s2/favicons?domain=parking.mos.ru&sz=64">
+    <span>Парковки</span></a>
+    <a class="tile" href="https://gosuslugi.ru"><img src="https://www.google.com/s2/favicons?domain=gosuslugi.ru&sz=64">
+    <span>Госуслуги</span></a>
+    <a class="tile" href="https://mos.ru"><img src="https://www.google.com/s2/favicons?domain=mos.ru&sz=64">
+    <span>Мос.ру</span></a>
+    <a class="tile" href="https://5ka.ru"><img src="https://www.google.com/s2/favicons?domain=5ka.ru&sz=64">
+    <span>5ка</span></a>
 
 </body>
 </html>
